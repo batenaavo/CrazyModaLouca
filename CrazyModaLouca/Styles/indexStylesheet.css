@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.modal-content {
+        display: grid;
+        background-color: #fefefe;
+        margin: auto;
+        padding-bottom: 60px;
+        grid-row-gap: 60px;
+        -webkit-box-shadow: -4px 8px 22px -10px rgba(0,0,0,0.67);
+        -moz-box-shadow: -4px 8px 22px -10px rgba(0,0,0,0.67);
+        box-shadow: -4px 8px 22px -10px rgba(0,0,0,0.67);
+        width: 90%;
+        grid-template-columns: 60px 1fr 1fr 60px;
+        grid-template-rows: 130px auto auto;
+        grid-template-areas:"login-form-button login-form-button register-form-button register-form-button"
+                             ". login-form login-form ."
+                             ". register-form register-form .";
+    }
+    
+    #login-form{
+        grid-area: login-form;
+        display: grid;
+        grid-row-gap: 60px;
+        width: 100%;
+        grid-template-rows:  100px 100px 50px 120px;
+        grid-template-areas: "login-mail login-mail"
+                             "login-password login-password"
+                             "forgot forgot"
+                             "login login";
+    }
+    
+    #register-form{
+        grid-area: register-form;
+        display: none;
+        grid-row-gap: 60px;
+        width: 100%;
+        grid-template-rows:  100px 100px 100px 100px 120px;
+        grid-template-areas: "first-name first-name"
+                             "last-name last-name"
+                             "register-mail register-mail"
+                             "register-password register-password"
+                             "register register"; 
+    }
+    
+    .form-input{
+        outline: none;
+        font-size: 50px;
+        border: none;
+        border-bottom: 3px solid black;
+        padding: 30px; 
+    }
+    
+    .form-button{
+        outline: none;
+        color: white;
+        background: #a9adb9; 
+        border: 20px solid #a9adb9;
+        font-size: 50px;
+        padding: 5px;
+    }
+    
+    .form-button:active{
+        background: #a9adb9;
+        color:black;
+        border: 20px solid #a9adb9;
+    }
+    
+    .submit-button{
+        font-size: 50px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: black;
+        background: white;
+        border: 7px solid black;
+        padding: 5px;
+    }
+    
+    
+    .submit-button:focus{
+        color: white;
+        background: #000000;
+    }     
+    
+    #register-form-button{
+        grid-area: register-form-button;
+    }
+    
+    #login-form-button{
+        background: white;
+        color:black;
+        border: 20px solid white;
+        grid-area: login-form-button;
+    }
+    
+    .click-here{
+        color: #3399ff;
+        text-decoration: none;
+    }
+    
+    #forgot{
+        grid-area: forgot;
+        font-size: 40px;
+    }
+    
+    #input-login-password{
+        grid-area: login-password;
+    }
+    
+    #input-login-mail{
+        grid-area: login-mail;
+    }
+    
+    #login-button{
+        grid-area: login;
+    }
+    
+    #input-first-name{
+        grid-area: first-name;
+    }
+    
+    #input-last-name{
+        grid-area: last-name;
+    }
+    
+    #input-register-mail{
+        grid-area: register-mail;
+    }
+    
+    #input-register-password{
+        grid-area: register-password;
+    }
+    
+    #register-button{
+        grid-area: register;
+    }

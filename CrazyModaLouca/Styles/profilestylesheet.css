@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+    #my-content{
+        top:110px;
+        z-index: 1;
+        position: fixed;
+        display: grid; 
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+    
+    .button-wrapper{
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    
+   .my-content-button{
+        color: black;
+        width:100%;
+        border: none;
+        outline: none;
+        height: 110px;
+        background-size: 60% 60%;
+        background-position: 0% 60%;
+        background-repeat: no-repeat;
+        -webkit-box-shadow: -4px -9px 22px 4px rgba(0,0,0,0.6);
+        -moz-box-shadow: -4px -9px 22px 4px rgba(0,0,0,0.6);
+        box-shadow: -4px -9px 22px 4px rgba(0,0,0,0.6);
+    }
+    
+    .settings-button{
+        background-position: 50% 60%;
+    }
+    
+    .my-content-button-on{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    .my-content-button-count{
+        font-size: 50px;
+        font-family: helvetica;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 95px;
+        padding-top: 20px;
+    }
+    
+    
+    .my-content-button-text{
+        font-size: 50px;
+        font-family: helvetica;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 95px;
+        padding-top: 20px;
+        text-transform: capitalize;
+    }
+    
+    .my-content-title{
+        text-align: center;
+        font-size: 60px;
+        font-family: helvetica;
+    }
+    
+    #my-wishlist-title{
+        color: #ff4242;
+    }
+        
+    #my-orders-title{
+        color: #72c488;
+    }
+          
+    #my-cart-title{
+        color: #ffae23;
+    }
+        
+    #my-wishlist{
+        background-size: 55% 55%;
+        background-image: url('../Images/heart-thick.svg');
+    }
+    
+    .my-wishlist-on{
+        background-color: #ff4242;
+    }
+    
+    .my-wishlist-off{
+        background-color: #eb7e7e;
+    }
+    
+    #my-cart{       
+        background-image: url('../Images/shopbag-ultra-thick.svg');
+    }
+
+    .my-cart-on{
+        background-color: #ffbd4c;
+    }
+    
+    .my-cart-off{
+        background-color: #ffd641;
+    }
+   
+   
+    #my-settings{
+        background-image: url('../Images/cog.svg');
+    }
+
+    .my-settings-on{
+        background-color: #76b3ff;
+    }
+    
+    .my-settings-off{
+        background-color: #97c0de;
+    }
+
+    
+    #my-orders{
+        background-image: url('../Images/orders.svg');
+    }
+
+    .my-orders-on{
+        background-color: #72c488;
+    }
+    
+    .my-orders-off{
+        background-color: #bce3c5;
+    }
+    
+    .content-display{
+         padding-top: 120px;
+     }
+    
+    .invisible{
+        display: none;
+    }
+           
+
+      
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Model/Credentials.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/logout.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/register.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Model/CartModel.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Model/PicModel.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/mail.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Model/ArticleModel.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/index.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/error.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/verify.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Styles/profilestylesheet.css</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/login.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Model/WishlistModel.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Controller/ArticleController.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/cart.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Entities/ArticleEntity.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Styles/stylesheet.css</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/wishlist.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/profile.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Styles/indexStylesheet.css</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/Entities/PicEntity.php</file>
+            <file>file:/Applications/MAMP/htdocs/tutorial/template.php</file>
+        </group>
+    </open-files>
+</project-private>
